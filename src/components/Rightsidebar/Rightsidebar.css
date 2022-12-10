@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'newfont';
+    /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
+    src:url(../../fonts/JosefinSans-VariableFont_wght.ttf) 
+  } 
+.right-sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(75, 126, 71);
+  width: 250px;
+  height: 100%;
+  padding: 10px 14px;
+  padding-top: 4rem;
+
+}
+.link-container-right{
+  display: flex;
+  /* background-color: rgb(233, 255, 224); */
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgb(84, 134, 80);
+}
+.link-container-right button{
+  color: white;
+  border: none;
+  background-color: rgb(75, 126, 71);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.link-container-right img{
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.link-container-right li{
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgb(229, 252, 218);
+  font-family: 'newfont';
+  list-style: none;
+}

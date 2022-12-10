@@ -1,0 +1,42 @@
+.addpost-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+.add-post-form{
+    margin: 0 auto;
+    margin: 2rem;
+    width: 500px;
+}
+.add-post-form textarea,input{
+    padding: 2rem;
+    width:100%;
+    color: rgb(82, 82, 82);
+    background-color: rgb(228, 255, 235);
+    border: none;
+}
+.add-post-form textarea:focus{
+    outline: none;
+}
+.add-post-btn{
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 0.7rem;
+    background-color: rgb(75, 126, 71);;
+}
+.add-image{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: rgb(75, 126, 71);
+}
+.image-uploader-container{
+    display: flex;
+    gap: 1rem;
+}
+.image-uploader-container p{
+    color:rgb(114, 158, 111);
+}

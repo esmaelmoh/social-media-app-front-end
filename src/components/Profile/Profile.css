@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: 'newfont';
+    /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
+    src:url(../../fonts/JosefinSans-VariableFont_wght.ttf) 
+  }  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color:  rgb(233, 250, 235);
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-form{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+.profile-form label{
+    display: block;
+}
+.profile-form-container{
+    background-color: rgb(248, 255, 253);
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 2px 0px rgba(108, 224, 93, 0.2),
+            1px 2px 4px 0px rgba(123, 255, 0, 0.2),
+            2px 4px 8px 0px rgba(109, 255, 11, 0.2),
+            2px 4px 16px 0px rgba(42, 165, 17, 0.2);
+    /* max-width: 450px; */
+}
+.profile-input{
+    width: 100%;
+    max-width: 450px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'newfont';
+    margin-top: 0.4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(222, 245, 222);
+}
+.profile-container{
+    font-family: 'newfont';
+    color: rgb(54, 54, 54);
+}
+
+.profile-btn{
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    /* color: rgb(78, 99, 75); */
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'newfont';
+    margin-top: 0.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(58, 94, 58);
+    transition: 20s ease-in-out linear;
+}
+.profile-btn:hover{
+    background-color: rgb(90, 126, 90);
+    transform: scale(1.03);
+}
+.profile-img-container{
+    margin: 2rem;
+    align-self: center;
+    /* background-color: rgb(171, 226, 154); */
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+}
+.profile-img-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit:cover;
+}
+.add-profile{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 80px;
+    left: 17px;
+    color: rgb(153, 190, 153);
+}

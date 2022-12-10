@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'newfont';
+    /* src:url(../../fonts/JosefinSans-VariableFont_wght.ttf)  */
+    src:url(../../fonts/JosefinSans-VariableFont_wght.ttf) 
+  } 
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(75, 126, 71);
+  width: 275px;
+  height: 100%;
+  padding: 10px 14px;
+  padding-top: 4rem;
+
+}
+.link-container{
+  display: flex;
+  /* background-color: rgb(233, 255, 224); */
+  gap: 1rem;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid rgb(97, 148, 77);
+}
+.link-container p{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.link-container li{
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: rgb(229, 252, 218);
+  font-family: 'newfont';
+  list-style: none;
+}
+.link-container li:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
